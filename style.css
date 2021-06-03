@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+}
+
+body { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:whitesmoke;
+    font-family: 'Sigmar One';
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+}
+nav ul li {
+    margin: 0 1rem;
+    font-weight: 700;
+}
+.content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 100px;
+    font-weight: 800;
+}
+.button {
+    width: 300px;
+    font-size: 2rem;
+    border: none;
+    color: whitesmoke;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 10px;
+}
+.button:hover {
+    background-color: #08347a;
+}
+#one {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+#two {
+    text-align: center;
+}
+#Soundcloud {
+    background-color: rgba(255, 119, 0, 0.75);
+}
+#Discord {
+    background-color:rgba(36, 95, 191, 0.75) ;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+#buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+#Wake {
+    color:lightskyblue;
+    font-size: 2rem
+}
+#Text {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.295);
+    color:lightskyblue;
+    font-size: 1.5rem;
+    width: 35%;
+}
+#Text:hover {
+    cursor: pointer;
+    transition: all .3s ease;
+    background-color: rgba(0, 0, 0, 0.400);
+}
+#Top{
+    font-size: 1rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    color: turquoise;
+}
+#Rusty{
+    text-align: center;
+    font-size: 1rem;
+    flex-direction: column;
+    gap: 50px;
+    color: black;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.social {
+    width: 100px;
+    border-radius: 25px;
+    flex-direction: column;
+    gap: 50px;
+}
+.Panda{
+    background-image: url('img/Maxxkii.png');
+}
+.Panda2{
+    background-image: url('img/Maxxkii2.png');
+}
+.Panda3{
+    background-image: url('img/Maxxkii3.png');
+}
+.Panda4{
+    background-image: url('img/Maxxkii4.png');
+}
+#Collective{
+    color: chartreuse;
+}
+#Underlords {
+    color: #1d6bdf  ;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.500);
+    width: 70%;
+}
+#Overlords {
+    color: #1d6bdf
+}
+#Underlords:hover{
+    cursor: pointer;
+    transition: all .3s ease;
+    background-color: rgba(0, 0, 0, 0.650);
+}
+#Server {
+    font-size: 4rem;
+    color: rgb(54, 12, 94);
+}
+#Restless {
+    font-size: 3rem;
+}
+#MERCH {
+    color: rgb(141, 11, 37);
+}
+#Get {
+    color: darkblue;
+}
